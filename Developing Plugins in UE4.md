@@ -105,11 +105,11 @@ This project file is supporting the plugin, so we can add content. However, we n
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		},
-    {
-      "Name": "PluginName",
+    		{
+      			"Name": "PluginName",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-    }
+    		}
 	],
 	"Plugins": [
 		{
@@ -132,4 +132,4 @@ Now our project is ready for plugin development. You can generate VS project fil
 - Done!
 
 # Final considerations
-- The process of converting a plugin into a game module and viceversa could be automatized by some script (batch, python, etc). 
+- The process of converting a plugin into a game module and viceversa could be automatized by some scripts (batch, python, etc). 
