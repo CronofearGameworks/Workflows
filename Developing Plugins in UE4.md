@@ -2,11 +2,11 @@
 This is a high level description of how to make plugins in Unreal Engine 4.
 If you don't know how to make plugins and you want to use this document as a guidance, i recommend you to watch these series of tutorials first: https://www.youtube.com/watch?v=jvkFrETmCoA&list=PL7Se41ZzAKZmvCeW9iBpEuh_hxD7bMqMF
 
-This document describes a good workflow for developing plugins in UE4, supports hotreload and plugin content (Assets).
-
 # What's this about
 
-This is a workflow description about making a plugin in Unreal Engine 4. Following this workflow, you'll be able to develop a plugin with HotReload support and Plugin Content support. For achieving that, this workflow describes how to develop a plugin as a game module first, then "convert it" into a plugin.
+This document describes a good workflow for developing plugins in UE4, supports hotreload and plugin content (Assets).
+
+This is a workflow description about making a plugin in Unreal Engine 4. By following this workflow, you'll be able to develop a plugin with HotReload support and Plugin Content support. For that, this workflow describes how to develop a plugin as a game module first, then "convert it" into a plugin.
 
 # Steps
 ## Step 1 - Creating the required files
