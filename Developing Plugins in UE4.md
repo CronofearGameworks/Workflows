@@ -69,7 +69,7 @@ IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, PluginName, "PluginName");
 ```
 Note that we're adding a IMPLEMENT_PRIMARY_GAME_MODULE line that will add hotreload support to this module.
 We're commenting IMPLEMENT_MODULE because we'll need to uncomment it (and comment IMPLEMENT_PRIMARY_GAME_MODULE) when we'll need to package the plugin.
-- 9) Finally, go to "Project/" and open the .uproject file with a text editor. Since we created the plugin in the begining the editor we should see something like this:
+- 9) Finally, go to "Project/" and open the .uproject file with a text editor. Since we created the plugin in the begining, we should see something like this:
 ```
 {
 	"FileVersion": 3,
